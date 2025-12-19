@@ -160,7 +160,7 @@ function handleFade() {
     fadeAlpha = 0;
   }
 }
-
+  
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
