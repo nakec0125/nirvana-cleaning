@@ -26,8 +26,7 @@ let faces = [];
 function preload() {
   // 폰트 로드 (필요시)
   bodyPose = ml5.bodyPose({ flipped: true });
-  customFont = loadFont("OnulArticleBuri-Regular.otf");
-}
+  customFont = loadFont("assets/OnulArticleBuri-Regular.otf");
 
 // ========== p5.js 메인 함수 ==========
 function setup() {
