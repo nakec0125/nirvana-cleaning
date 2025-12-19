@@ -306,10 +306,6 @@ class CleaningScreen {
       }
     }
 
-    // 3CleaningScreen.js의 show() 메서드 끝부분
-    // 기존 코드를 아래와 같이 교체하세요
-
-    // 열반 상태 처리 (화면 하얗게 -> 메시지 -> 초기화면 복귀)
     if (this.allCleaned) {
       // 1. 화면 페이드 인 (하얗게)
       if (!this.isReturning && this.whiteFadeAlpha < 255) {
